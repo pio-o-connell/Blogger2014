@@ -2,6 +2,8 @@
 
 A revamp of a 2014 blogging platform, using the original project as a reference to restore its functionality and develop a simple, modern graphical user interface.
 
+### PHP Front page
+<img src="original-blogger-2014.png" alt="PHP Blog server running " width="60%">
 A simple PHP/MySQL blogging application developed as part of the **Higher Diploma in Cloud Computing, 2014**.
 
 The project is an early web application demonstrating server-side PHP programming, MySQL database interaction, user registration and authentication, blog posts, comments, and basic administration.
