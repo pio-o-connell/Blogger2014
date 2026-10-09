@@ -1474,10 +1474,14 @@ class DBManager{
         public function __construct(){
             
           // $address = 'mysql:host=localhost:3306;dbname=blogger';
-           $address = 'mysql:host=localhost:3306;dbname=blogger';
-           $username = 'root';
-           $password = '';
-            
+        //    $address = 'mysql:host=localhost:3306;dbname=blogger';
+        //    $username = 'root';
+        //    $password = '';
+           
+            $address = 'mysql:host=127.0.0.1;port=3307;dbname=blogger';
+            $username = 'root';
+            $password = 'Spring57Local!';
+         
            try {
             $this->db = new PDO($address, $username, $password);
     
